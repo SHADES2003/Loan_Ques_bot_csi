@@ -1,24 +1,20 @@
 # # Gen_AI_Celebal
-=======
-# Loan Application Q&A Chatbot
 
+# Loan Application Q&A Chatbot
 An intelligent chatbot that uses Retrieval Augmented Generation (RAG) to answer questions about loan applications. The system combines advanced natural language processing with statistical analysis to provide comprehensive insights about loan applications, approval factors, and trends.
 
 ## Features
-
-- 🤖 Interactive Streamlit web interface
-- 🔍 Semantic search using Sentence Transformers
-- 📊 Comprehensive statistical analysis of loan data
-- 💡 Intelligent response generation using FLAN-T5 Large
-- 🚀 Real-time data processing and analysis
-- 📈 Detailed insights about approval rates, credit impact, and more
-- 💬 Example questions for quick testing
+-  Interactive Streamlit web interface
+-  Semantic search using Sentence Transformers
+- Comprehensive statistical analysis of loan data
+-  Intelligent response generation using FLAN-T5 Large
+-  Real-time data processing and analysis
+-  Detailed insights about approval rates, credit impact, and more
+-  Example questions for quick testing
 
 ## Technical Stack
 
 The application uses the following libraries with specific versions:
-
-
 pandas==2.1.3
 numpy==1.26.2
 sentence-transformers==5.0.0
@@ -31,7 +27,6 @@ scikit-learn==1.3.2
 
 
 ## Installation
-
 1. Clone the repository:
 bash
 git clone <repository-url>
@@ -43,29 +38,20 @@ bash
 python -m venv venv
 # On Windows
 venv\Scripts\activate
-# On Unix or MacOS
-source venv/bin/activate
-
-
 3. Install dependencies:
 bash
 pip install -r requirements.txt
 
-
 ## Usage
-
 1. Start the application:
 bash
 streamlit run loan_qa_bot.py
-
 
 2. Open your web browser and navigate to:
    - Local URL: http://localhost:8501
    - The application will automatically open in your default browser
 
 3. Ask questions about loan applications using the text input field
-
-## Features in Detail
 
 ### 1. Data Analysis Capabilities
 - Approval rate analysis by various factors
@@ -113,7 +99,6 @@ The system processes loan application data with the following fields:
 - Loan Status
 
 ## Response Generation
-
 The chatbot uses a sophisticated response generation system that:
 1. Retrieves relevant examples using semantic search
 2. Performs statistical analysis of the data
@@ -122,16 +107,13 @@ The chatbot uses a sophisticated response generation system that:
 5. Enhances responses with specific data analysis when needed
 
 ## Performance Notes
-
 - The first run may take longer as it downloads the required models
 - Response generation typically takes 2-5 seconds
 - The system can handle complex, multi-factor questions
 - Responses are based on both statistical analysis and similar examples
 
 ## Contributing
-
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
-
 This project is licensed under the MIT License - see the LICENSE file for details.
